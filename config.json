@@ -1,0 +1,11 @@
+{
+	"GeneralSettings": {
+		"SegmentLenghtInMins": 5,
+		"RecordsPath": "/home/sk/Dokumenty/rec/",
+		"ArchivingInDays": 1
+	},
+	"Cameras": [
+		"rtsp://admin:admin@10.1.1.246:8554/CH001.sdp",
+		"rtsp://admin:admin@10.1.1.246:8554/CH002.sdp"
+	]
+}
