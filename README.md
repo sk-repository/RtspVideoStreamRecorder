@@ -43,9 +43,8 @@ sudo apt-get install ffmpeg
 ```
 ## Algorithm
 
----------------         ----------------------
 |    START    |-------->| READ "config.json" |
----------------         ----------------------
+
 
 
 
