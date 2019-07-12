@@ -2,7 +2,7 @@
 
 
 ## Dependencies
-RtspVideoStreamRecorder is based on [FFMPEG](https://ffmpeg.org/). Application needs Qt 5.12.1 librarys
+RtspVideoStreamRecorder is based on [FFMPEG](https://ffmpeg.org/). Application needs Qt 5.12.1 librarys. 
 
 RtspVideoStreamRecorder installed and tested in the following systems:
 
@@ -14,9 +14,13 @@ RtspVideoStreamRecorder installed and tested in the following systems:
 ## Install
 ### Manual run
 1. Copy QtLibs to: /opt/Qt5.12.1/5.12.1/gcc_64/lib/
-2. Copy RtspVideoStreamRecorder file to: /root/RVSR/
-3. Edit "config.json" in: /root/RVSR/
-4. Run application by ./start-rvsr.sh
+2. Install ffmpeg:
+```shell
+sudo apt-get install ffmpeg
+```
+3. Copy RtspVideoStreamRecorder file to: /root/RVSR/
+4. Edit "config.json" in: /root/RVSR/
+5. Run application by ./start-rvsr.sh
 
 ### Run as service
 1. Copy rvsr file to /etc/init.d/
