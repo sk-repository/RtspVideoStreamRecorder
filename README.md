@@ -4,7 +4,7 @@
 ## Dependencies
 RtspVideoStreamRecorder is based on [FFMPEG](https://ffmpeg.org/). Application needs Qt 5.12.1 librarys. 
 
-RtspVideoStreamRecorder installed and tested in the following systems:
+RtspVideoStreamRecorder was install and tested in the following systems:
 
 | OS           | ffmpeg |
 |--------------|--------|
