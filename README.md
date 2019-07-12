@@ -5,6 +5,7 @@
 RtspVideoStreamRecorder is based on [FFMPEG](https://ffmpeg.org/). Application needs Qt 5.12.1 librarys
 
 RtspVideoStreamRecorder installed and tested in the following systems:
+
 | OS           | ffmpeg |
 |--------------|--------|
 | Ubuntu 16.04 | 4.1.3  |
