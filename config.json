@@ -5,7 +5,7 @@
 		"ArchivingInDays": 1
 	},
 	"Cameras": [
-		"rtsp://admin:admin@10.1.1.246:8554/CH001.sdp",
+		"rtsp://admin:Admin123456@192.168.204.26:2101/Streaming/Channels/2",
 		"rtsp://admin:admin@10.1.1.246:8554/CH002.sdp"
 	]
 }
