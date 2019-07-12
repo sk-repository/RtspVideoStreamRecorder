@@ -42,8 +42,13 @@ sudo apt-get install ffmpeg
 }
 ```
 ## Algorithm
+```flow
+st=>start: START
+op=>operation: Open & read config.json
+op=>operation: Start recording streams
+cord=>condition: Has expired "SegmentLenghtInMins" 
 
-|    START    |-------->| READ "config.json" |
+
 
 
 
