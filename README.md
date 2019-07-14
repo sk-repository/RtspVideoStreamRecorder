@@ -23,9 +23,9 @@ sudo apt-get install ffmpeg
 5. Run application by ./start-rvsr.sh
 
 ### Run as service
-1. Copy rvsr file to /etc/init.d/
-2. chmod+x
-3. update-rc.d rvsr defaults
+6. Copy rvsr file to /etc/init.d/
+7. chmod+x
+8. update-rc.d rvsr defaults
 
 ## Configuration example
 ```shell
