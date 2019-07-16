@@ -9,7 +9,8 @@ RtspVideoStreamRecorder was install and tested in the following systems:
 | OS           | ffmpeg |
 |--------------|--------|
 | Ubuntu 16.04 | 4.1.3  |
-| Ubuntu 18.04 | 3.4.6  | 
+| Ubuntu 18.04 | 3.4.6  |
+| CentOS 7     | 2.8.15 |
 
 ## Install
 ### Manual run
