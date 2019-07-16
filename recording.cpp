@@ -7,7 +7,7 @@ Recording::Recording(QString link, double lenght, QString path, qint8 cam_idx, d
     dir.mkpath( path + "cam" + QString::number(cam_idx) );                                                              //Making dirs for records file
 
     partpath = QString( path + "cam" + QString::number(cam_idx) + "/" + "cam" + QString::number(cam_idx) );             //Building record file path "/home/sk/rec/camX/camX"
-    arguments << "-i" << link << "-vcodec" << "copy" << "-t" << QString::number(lenght*60, 'f', 0) << "-y" << partpath; //Building list of paramiters to ffmpeg
+    arguments << "-rtsp_transport tcp -i" << link << "-vcodec" << "copy" << "-t" << QString::number(lenght*60, 'f', 0) << "-y" << partpath; //Building list of paramiters to ffmpeg
     archiving_days=days;                                                                                                //File older than 'days' will be delete
 
     connect( &proc, SIGNAL ( finished(int,QProcess::ExitStatus) ), this, SLOT(slot_finished ( int,QProcess::ExitStatus) ) );     //Finish catch
